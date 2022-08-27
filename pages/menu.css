@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;600;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*--- Start of Menu page*/
+.body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 50px;
+    justify-content: flex-end;
+}
+
+
+.flex-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 132px;
+    height: 680px;
+    left: 57px;
+    top: 20px;
+    background: #0C0B0B;
+    border-radius: 24px;
+}
+
+/*dark side menu bar*/
+.flex-1 .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.flex-1 .heart.active {
+    background-color: #F1D5BB;
+    transition: 0.4s;
+    color: black;
+}
+
+
+.flex-1 .heart:hover:not(.active) {
+    background-color: #eeb077;
+    color: black;
+}
+
+
+.flex-1 .heart {
+    cursor: pointer;
+
+}
+
+.heart {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 4.25em;
+    padding: 15px 0;
+
+}
+
+.heart .bx {
+    font-size: 40px;
+}
+
+.flex-2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    width: 1060px;
+    margin: 20px 20px;
+    padding: 0 10px;
+    font-family: "Mulish";
+    justify-content: center;
+    background: none;
+
+}
+
+.flex-2 h1 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 40px 0;
+    padding: 0 0 15px 0;
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: space-between;
+    gap: 40px;
+
+}
+
+.foods p {
+    text-align: center;
+    font-family: "Mulish";
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.btn {
+    min-width: 130px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #0C0B0B;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+
+
+
+}
+
+/*--- End of Menu page*/
+
+.flex-3 {
+    position: absolute;
+    width: 443px;
+    height: 286px;
+    left: 893px;
+    top: 135px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+
+.food_1 .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 264px;
+    top: 172px;
+    border-radius: 10px;
+}

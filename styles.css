@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.home-img {
+  background-image: url('./img/home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.home-text h2 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.home-text p {
+  margin: 40px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.sushi {
+  font-weight: 800;
+}
+
+.home-text .btn {
+  margin: auto;
+}
+
+.btn {
+  min-width: 150px;
+  padding: 15px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+
+}
+
+/*--- End of Homepage*/
